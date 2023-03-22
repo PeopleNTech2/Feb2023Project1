@@ -1,5 +1,8 @@
 package condition;
 
+import classmethodobject.House;
+import modifiers.access.Calculator;
+
 public class Condition {
 
 	public static void main(String[] args) {
@@ -29,7 +32,11 @@ public class Condition {
 			System.out.println("this number is 0");
 		}
 		
+		Calculator cal = new Calculator();
+		cal.sum(10, 10);
 		
+		House house = new House();
+		house.bedroom();
 	
 	}
 

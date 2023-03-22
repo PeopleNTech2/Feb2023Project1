@@ -17,7 +17,7 @@ public class House {//class is a blueprint
 	String bathroom() {
 		return "value";
 	}
-	int bedroom() {
+	public int bedroom() {
 		int numOfRooms = 3;
 		int numberOfKitchen = 2;
 		int numberOfBathRooms = 2;
