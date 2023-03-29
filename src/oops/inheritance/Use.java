@@ -6,7 +6,7 @@ public class Use {
         GrandFather brooklyn = new GrandFather();
         brooklyn.hasMoney();
 
-        Father john = new Father();
+        Father john = new Father(2);
         john.hasCar();
         john.hasMoney();
 

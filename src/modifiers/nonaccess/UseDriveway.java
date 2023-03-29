@@ -4,6 +4,8 @@ public class UseDriveway {
 	public static void main(String[] args) {
 		
 		DriveWay myDriveWay = new DriveWay();
+
+		DriveWay.widthOfDriveWay();
 		
 		myDriveWay.setLength(50);
 		System.out.println("my driveway is: "+myDriveWay.getLength());//50

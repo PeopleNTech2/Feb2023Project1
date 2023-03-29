@@ -3,9 +3,6 @@ temp converter project
 greet the user: welcome
 header: to temp converter
 
-do you want to convert temp?
-y/n (1- y/2- n)
-
 case yes:
 choose the conversion mode:
 1- C to F

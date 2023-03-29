@@ -3,7 +3,7 @@ package modifiers.nonaccess;
 class DriveWay {
 	
 	int width = 10;
-	int length;//=50
+	static int length;//=50
 	
 	//setter
 	public void setLength(int myLength) {
@@ -15,8 +15,8 @@ class DriveWay {
 		return length;
 	}
 
-	public void widthOfDriveWay() {
-		System.out.println("width of the driveway is: "+ width);
+	public static void widthOfDriveWay() {
+		//System.out.println("width of the driveway is: "+ width);
 		System.out.println("length of the driveway is: "+length);
 	}
 	
